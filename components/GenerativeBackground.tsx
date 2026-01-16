@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const GenerativeBackground: React.FC = () => {
   return (
-    <div className="fixed inset-0 w-full h-full overflow-hidden -z-10 bg-[#080808]">
+    <div className="fixed inset-0 w-full h-full overflow-hidden z-0 bg-[#080808]">
       {/* Subtle Grid */}
       <div 
         className="absolute inset-0 opacity-[0.08]"

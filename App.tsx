@@ -14,9 +14,9 @@ const App: React.FC = () => {
   ];
 
   return (
-    <div className="relative w-full min-h-screen bg-black text-neutral-200 overflow-hidden flex flex-col font-mono-tech">
-      <div className="noise-bg" />
+    <div className="relative w-full min-h-screen bg-transparent text-neutral-200 overflow-hidden flex flex-col font-mono-tech">
       <GenerativeBackground />
+      <div className="noise-bg" />
 
       {/* Outer Industrial Frame */}
       <div className="fixed inset-2 md:inset-4 z-50 pointer-events-none">
